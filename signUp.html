@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#151719">
+    <title>Join Smart Fitness</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sekuya&display=swap" rel="stylesheet">
+</head>
+<body class="content-body signup-body">
+    <header>
+        <nav class="navbar industrial-navbar" aria-label="Main navigation">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo2.png" alt="" class="responsive-logo">
+                <span>Smart Fitness</span>
+            </a>
+            <div class="navbar-items">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="store.html">Store</a></li>
+                    <li class="nav-item"><a href="Gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a href="aboutUs.html">About Us</a></li>
+                    <li class="nav-item"><a href="ContactUs.html">Contact Us</a></li>
+                    <li class="nav-item"><a href="signUp.html" aria-current="page">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content-page signup-page">
+        <section class="signup-layout">
+            <div class="signup-pitch">
+                <p class="page-eyebrow"><span></span> YOUR NEXT CHAPTER / 04</p>
+                <h1>MAKE<br>ROOM FOR<br><em>STRONGER.</em></h1>
+                <p>Take the first step. Tell us a little about yourself and what you'd like to work toward.</p>
+                <div class="signup-pitch-points">
+                    <p><span>01</span> TRAIN AT YOUR OWN PACE</p>
+                    <p><span>02</span> FIND YOUR TRAINING STYLE</p>
+                    <p><span>03</span> BUILD CONSISTENCY</p>
+                </div>
+            </div>
+            <form class="content-form signup-form" action="#" method="get">
+                <div class="content-form-heading">
+                    <p class="page-eyebrow"><span></span> MEMBERSHIP INTEREST</p>
+                    <h2>LET'S GET<br><em>STARTED.</em></h2>
+                    <p>Share your details and preferred training focus.</p>
+                </div>
+                <label for="signup-name">YOUR NAME</label>
+                <input id="signup-name" name="name" type="text" autocomplete="name" placeholder="e.g. Alex Morgan" required>
+                <label for="signup-email">EMAIL ADDRESS</label>
+                <input id="signup-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+                <label for="signup-phone">PHONE NUMBER</label>
+                <input id="signup-phone" name="phone" type="tel" autocomplete="tel" placeholder="+971" required>
+                <label for="signup-focus">WHAT DO YOU WANT TO FOCUS ON?</label>
+                <select id="signup-focus" name="focus" required>
+                    <option value="" selected disabled>Choose your focus</option>
+                    <option value="strength">Strength training</option>
+                    <option value="cardio">Cardio and conditioning</option>
+                    <option value="wellness">General fitness and wellness</option>
+                    <option value="unsure">I'm still deciding</option>
+                </select>
+                <button class="page-button" type="submit">REQUEST MEMBERSHIP INFO <span aria-hidden="true">↗</span></button>
+                <p class="form-preview-note">Form preview only. Online sign-up is not connected yet.</p>
+                <p class="signup-contact-note">Have a question first? <a href="ContactUs.html">Talk to the team.</a></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand"><p>Smart Fitness</p><span>Your Fitness, Our Priority</span></div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="store.html">Store</a>
+                <a href="ContactUs.html">Contact Us</a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Smart Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
